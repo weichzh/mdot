@@ -1,0 +1,10 @@
+patch:
+  "key_binder/bindings":
+    - {accept: "Control+Shift+space", toggle: ascii_punct, when: always}
+    - {accept: comma, send: Page_Up, when: paging}
+    - {accept: period, send: Page_Down, when: has_menu}
+  "menu/page_size": 8
+  schema_list:
+    - schema: clover
+  "switcher/hotkeys":
+    - "Control+Shift+F8"

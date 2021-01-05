@@ -1,0 +1,5 @@
+[source.crates-io]
+replace-with = 'nju'
+
+[source.nju]
+registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index"
