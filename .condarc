@@ -1,0 +1,12 @@
+channels:
+  - defaults
+show_channel_urls: true
+channel_alias: https://mirrors.nju.edu.cn/anaconda
+default_channels:
+  - https://mirrors.nju.edu.cn/anaconda/pkgs/main
+  - https://mirrors.nju.edu.cn/anaconda/pkgs/free
+allow_conda_downgrades: true
+channel_priority: flexible
+custom_channels:
+  conda-forge: https://mirrors.nju.edu.cn/anaconda/cloud
+auto_activate_base: false
